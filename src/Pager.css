@@ -1,0 +1,31 @@
+.pageItem {
+    background-color: white;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+}
+
+.pageItem:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.pageItem_active {
+    background-color: lightblue;
+}
+
+.footer {
+    width: 50vmax;
+}
+
+.footer_content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0;
+}

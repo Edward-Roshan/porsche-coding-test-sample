@@ -1,0 +1,11 @@
+
+.item {
+    line-height: 32px;
+    list-style: none;
+}
+
+.content {
+    overflow: auto;
+    height: 50vh;
+    max-height: 404px;
+}

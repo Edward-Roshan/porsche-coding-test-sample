@@ -1,0 +1,33 @@
+.App {
+    text-align: left;
+}
+
+.modal {
+    position: fixed;
+    width: 50vmax;
+    height: 50vmax;
+    max-height: 500px;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex_header {
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
